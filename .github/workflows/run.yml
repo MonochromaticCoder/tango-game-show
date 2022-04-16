@@ -1,0 +1,7 @@
+name: Run program
+on: [push]
+jobs:
+  run:
+    runs-on: python:latest
+    steps:
+      - run: python main.py
